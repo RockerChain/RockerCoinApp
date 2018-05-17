@@ -1,1 +1,198 @@
 /* Empty. Add your own CSS if you like */
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../font/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('../font/Roboto-Medium.ttf');
+}
+@font-face {
+    font-family: 'RobotoBlack';
+    src: url('../font/Roboto-Black.ttf');
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../font/Roboto-Bold.ttf');
+}
+
+html, body, a, span, p, h1, h2, h3, h4, h5, div, button {
+    font-family: 'RobotoRegular';
+}
+
+.pane, .view {
+    background-color: #ebebeb;
+}
+
+.tabs-top > .tabs, .tabs.tabs-top {
+    top: unset;
+}
+.has-tabs-top {
+    top: 0;
+}
+
+.bar.bar-stable {
+    background: transparent;
+}
+    .bar.bar-stable .title {
+        color: transparent;
+    }
+
+.tab-nav.tabs {
+    background: white!important;
+    border-top: 2px solid #dadada!important;
+    border-bottom: none;
+    height: 65px;
+}
+    .tab-nav.tabs .tab-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .tabs-top.tabs-striped .tab-item.tab-item-active, .tabs-top.tabs-striped .tab-item.active, .tabs-top.tabs-striped .tab-item.activated {
+        border-width: 0!important;
+        color: #0b192e;
+    }
+        .tab-nav.tabs .tab-item span {
+            display: none;
+        }
+
+.item-thumbnail-left, .item-thumbnail-left .item-content {
+    padding: 0 25px 0 130px;
+}
+
+.whiteBottomContainer {
+    background: white;
+    padding: 50px 30px;
+    position: relative;
+    left: -10px;
+    right: -10px;
+    width: calc(100% + 20px);
+}
+.activeArrow {
+    width: 48px;
+    height: 20px;
+    background: url(../img/sectionActiveArrow.png);
+    position: absolute;
+    top: -19px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.logoNamed {
+    width: 120px;
+    height: 23px;
+    background-image: url(../img/logoNamed.png);
+    background-size: cover;
+}
+.logo {
+    width: 114px;
+    height: 114px;
+    background-image: url(../img/logo.png);
+    background-size: cover;
+}
+
+.rockercoinHeader {
+    height: 32vh;
+    background-color: #07152b;
+    background-image: url(../img/pattern.png);
+    background-size: 500%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .rockercoinHeader .logoNamed {
+        margin-bottom: 15px;
+    }
+
+.list .imageInList {
+    border-width: 1px;
+    border-color: rgb(230, 230, 230);
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(7, 21, 43);
+    box-shadow: 0.5px 0.866px 1px 0px rgba(0, 0, 0, 0.18);
+    width: 78px;
+    height: 64px;
+    position: absolute;
+    left: 25px;
+    top: 16px;
+    background-size: cover;
+    background-position: center;
+} 
+.list .icon {
+    float: right;
+    height: 100px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list .info {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}    
+    .list .info p {
+        font-family: RobotoBold;
+        margin: 0;
+        color: #444444;
+    }
+    .list .info span {
+        font-size: 12px;
+        color: #999999;
+        margin-top: 4px;
+    }
+
+.markerPlaceIcon {
+    width: 20px;
+    height: 27px;
+    background-image: url(../img/markerPlaceIcon.png);
+    background-size: cover;
+}
+
+/* HOME */
+
+.profileImage {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/ZacEfron.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin: 40px auto 8px;
+}
+#home-heading2 {
+    color: #0b192e;
+    font-family: RobotoBold;
+    text-transform: uppercase;
+    text-align: center;
+}
+#home-whiteContainer {
+    position: absolute;
+    bottom: 65px;
+    height: 240px;
+}
+
+/* MY PURCHASES */
+
+.intermezzoTitle {
+    color: #999999;
+    font-size: 15px;
+    padding: 0 35px;
+    height: 70px;
+    line-height: 70px;
+}
+#purchasesWhiteContainer {
+    padding: 0;
+    position: absolute;
+    bottom: 65px;
+    height: calc(68vh - 135px);
+    overflow-y: auto;
+}
