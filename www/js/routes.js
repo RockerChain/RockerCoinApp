@@ -55,6 +55,16 @@ angular.module('app.routes', [])
     }
   })
 
+  .state('tabsController.notFound', {
+    url: '/notFound',
+    views: {
+      'tab1': {
+        templateUrl: 'templates/notFound.html',
+        controller: 'notFoundCtrl'
+      }
+    }
+  })
+
 $urlRouterProvider.otherwise('/page1/Home')
 
 
