@@ -196,3 +196,13 @@ html, body, a, span, p, h1, h2, h3, h4, h5, div, button {
     height: calc(68vh - 135px);
     overflow-y: auto;
 }
+
+/* PRODUCT DETAIL */
+
+.productImage {
+    height: 30vh;
+    width: 100vw;
+    background-image: url(../img/1_18_03_08_fragiacomo_e-commerce_1303.jpg);
+    background-size: cover;
+    background-position: center;
+}
