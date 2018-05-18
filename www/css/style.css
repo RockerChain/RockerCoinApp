@@ -69,6 +69,11 @@ html, body, a, span, p, h1, h2, h3, h4, h5, div, button {
     overflow-x: hidden;
 }
 
+.hackForBackButton {
+    height: 44px;
+    background: white;
+}
+
 .whiteBottomContainer {
     background: white;
     padding: 50px 30px;
@@ -289,16 +294,27 @@ html, body, a, span, p, h1, h2, h3, h4, h5, div, button {
 /* NOT FOUND */
 
 .notFoundContainer {
-    height: 100vh;
+    height: calc(100vh - 109px);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
+    background: #07152b;
+    background-image: url(../img/pattern.png);
+    background-position: center;
 }
-
-.notFoundMsg {
-    font-size: 30px;
-    color: rgb(180, 0, 0);
-}
+    .notFoundContainer .logo {
+        margin-bottom: 20px;
+    }
+    .notFoundContainer .notFoundMsg {
+        font-size: 43px;
+        color: white;
+        font-family: RobotoBold;
+    }
+    .notFoundContainer h4 {
+        color: white;
+        font-size: 24px;
+        opacity: .9;
+    }
