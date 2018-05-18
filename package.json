@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@ionic/pro": "1.0.20",
+    "cordova-android": "^6.3.0",
     "phonegap-plugin-barcodescanner": "^7.1.2"
   },
   "cordova": {
