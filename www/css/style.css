@@ -63,6 +63,12 @@ html, body, a, span, p, h1, h2, h3, h4, h5, div, button {
     padding: 0 25px 0 130px;
 }
 
+.scroll {
+    padding-bottom: 65px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 .whiteBottomContainer {
     background: white;
     padding: 50px 30px;
@@ -206,3 +212,76 @@ html, body, a, span, p, h1, h2, h3, h4, h5, div, button {
     background-size: cover;
     background-position: center;
 }
+.productInfo .left {
+    width: 50%;
+    display: inline-block;
+    border-right: 1px solid #ebebeb;
+}
+.productInfo .right {
+    width: 44%;
+    float: right;
+}
+.productInfo label {
+    color: #939393;
+    font-size: 15px;
+}
+.productInfo p {
+    color: #3f3a3b;
+    font-size: 15px;
+    font-family: RobotoMedium;
+}
+
+.trakingHistory {
+    padding: 20px;
+}
+    .trakingHistory h4 {
+        color: #0e2b57;
+        text-transform: uppercase;
+        font-family: RobotoBlack;
+        margin-bottom: 30px;
+    }
+    .trakingHistory .stepContainer {
+        padding-left: 50px;
+        position: relative;
+        height: 80px;
+    }
+        .trakingHistory .stepContainer .point {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: white;
+            position: absolute;
+            left: 3px;
+            z-index: 2;
+            top: 13px;
+        }
+        .trakingHistory .stepContainer .line {
+            position: absolute;
+            top: -8px;
+            left: 0;
+            bottom: 0;
+            width: 20px;
+            background: #0e2b57;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            z-index: 1;
+        }
+        .trakingHistory .stepContainer .stepDescription {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+            .trakingHistory .stepContainer .stepDescription p {
+                font-family: RobotoMedium;
+                color: #212121;
+                margin: 0;
+                line-height: 1.2;
+                font-size: 15px;
+            }
+            .trakingHistory .stepContainer .stepDescription span {
+                font-size: 13px;
+                color: #4a4a4a;
+                margin-top: 5px;
+                display: block;
+            }
