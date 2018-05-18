@@ -212,7 +212,6 @@ html, body, a, span, p, h1, h2, h3, h4, h5, div, button {
     background-size: cover;
     background-position: center;
 }
-<<<<<<< HEAD
 .productInfo .left {
     width: 50%;
     display: inline-block;
@@ -286,7 +285,6 @@ html, body, a, span, p, h1, h2, h3, h4, h5, div, button {
                 margin-top: 5px;
                 display: block;
             }
-=======
 
 /* NOT FOUND */
 
@@ -304,4 +302,3 @@ html, body, a, span, p, h1, h2, h3, h4, h5, div, button {
     font-size: 30px;
     color: rgb(180, 0, 0);
 }
->>>>>>> 180b6b433428ed48f075d513288169678709085d
