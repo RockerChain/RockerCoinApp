@@ -188,7 +188,7 @@ html, body, a, span, p, h1, h2, h3, h4, h5, div, button {
 #home-whiteContainer {
     position: absolute;
     bottom: 65px;
-    height: 240px;
+    height: 220px;
 }
 
 /* MY PURCHASES */
@@ -318,3 +318,22 @@ html, body, a, span, p, h1, h2, h3, h4, h5, div, button {
         font-size: 24px;
         opacity: .9;
     }
+
+/* SCAN PAGE */
+
+.scanContainer {
+    height: calc(100vh - 65px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+.qrCodePlaceholder {
+    height: 150px;
+    margin-top: 50px;
+    width: 80px;
+    background: url(../img/qr_code_scanner_mobile_hand.png);
+    background-size: contain;
+}

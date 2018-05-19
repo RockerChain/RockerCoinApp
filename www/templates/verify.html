@@ -1,15 +1,10 @@
 <ion-view title="Verify" id="page5">
-  <ion-content padding="true" class="has-header">
-    <div>
-        <!-- ui-sref="tabsController.results()" -->
-      <a style="display:block;" ng-click="startScan()">
-        <img src="img/imagesqtbnANd9GcT-d0fjAhg6iOFPrhjFerXlXKkwZiwG_fsD5kgKFtL7FqwRubZHCQ" style="display: block; width: 70%; height: auto; margin-left: auto; margin-right: auto;">
-      </a>
-    </div>
-    <div>
-      <a style="display:block;">
-        <img src="img/RMQ-1NPvGSR0sNF4x3-EnEUTMynifLxCiFwTbQCa3UjYug3d-EqoVmh2lbC1t54DiWkw300" style="display: block; width: 70%; height: auto; margin-left: auto; margin-right: auto;">
-      </a>
+  <ion-content class="has-header">
+    <div class="scanContainer">
+      <p style="font-size: 18px;">Tap below to scan the QrCode or <br>
+        <a onclick="return confirm('BTE functionality will be available soon');">click here to use <span>BTE technology</span></a>
+      </p>
+      <div class="qrCodePlaceholder" ng-click="startScan()"></div>
     </div>
   </ion-content>
 </ion-view>
